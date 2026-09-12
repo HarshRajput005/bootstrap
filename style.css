@@ -1,0 +1,345 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+.chatus{
+    color: #27AE60;
+    border: 1px solid #27AE60;
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    gap: 10px;
+    i{
+        color: #27AE60;
+        width: 20px;
+        height: 20px;
+    }
+}
+.chatus:hover{
+    border: 1px solid #27AE60;
+    color: #27AE60;
+}
+.phone{
+    border: 1px solid #0ACEFE;
+    background: linear-gradient( to right, #0ACEFE,#2699FB);
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.bannercontent h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+.bannercontent h1 span{
+        color: #2699FB;
+        background: url(/project/image/line.png) no-repeat bottom;
+    }   
+    p{
+        font-size: 22px;
+    }
+    ul{
+        i{
+            color: #0ACEFE;
+        }
+        font-size: 22px;
+        list-style: none;
+    }
+.bannercontentbtn button{
+    width: 45%;
+    border-radius: 8px;
+    padding: 16px 0;
+}
+.bannercontentbtn button:first-child{
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #0ACEFE;
+}
+.bannercontentbtn button:last-child{
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px light;
+}
+.bannerform {
+    padding: 40px;
+    background-color: white;
+    h4{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #43505B;
+    }
+    button{
+        width: 100%;
+        padding: 10px 18px;
+        background: linear-gradient(to right, #0ACEFE,#2699FB);
+        border-radius: 8px;
+        border: none;
+        font-size: 16px;
+        color: white;
+    }
+}
+.records {
+    color: white;
+    gap: 8px;
+    padding: 20px;
+    h1{
+        color: #2699FB;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    p{
+        color: #43505B;
+        font-size: 16px;
+        font-weight: 400px;
+    }
+}
+.highlight{
+    h1{
+        font-size: 36px;
+        font-weight: bold;
+        color: #0A2134;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #0A2134;
+    }
+}
+.highlight-section {
+    background-color: #F7FAFF;
+    img{
+        width: 86px;
+        height: 86px;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.highlight-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    button {
+    padding: 16px 48px;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+    border: 1px #0ACEFE;
+    border-radius: 8px;
+    }
+}
+.career {
+    h2{
+        font-size: 44px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.careeritems {
+    img {
+        height: 36px;
+        width: 36px;
+    }
+    h5{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.certificate {
+    background-color: #F7FAFF;
+}
+.certificate-head {
+    h5 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.certificate-body {
+    padding: 20px;
+    h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.marketing {
+    h1 {
+        font-size: 44px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.tabbing {
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #0A2134;
+        background-color: #F2F4F7;
+        border-bottom: 2px solid blue;
+        border-radius: 0px;
+    }
+    button {
+        color: #0A2134;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.tabbing-button {
+    display: flex;
+    justify-content: center;
+    button {
+        padding: 16px 48px;
+        background: linear-gradient(to right, #0ACEFE,#2699FB);
+        border: 1px solid #0ACEFE;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+}
+.learning {
+    background-color: #F7FAFF;
+}
+.learning-head {
+    h1 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.learning-body {
+    padding: 40px 32px;
+    h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+.learning-button {
+    display: flex;
+    justify-content: center;
+    button {
+        padding: 16px 48px;
+        background: linear-gradient(to right, #0ACEFE,#2699FB);
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        border: 1px solid #0ACEFE;
+        border-radius: 8px;
+    }
+}
+.student-head {
+    h1 {
+        font-size: 44px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.student-body {
+    span {
+        h5 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.student-box {
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+    border: 1px solid #0ACEFE;
+    border-radius: 16px;
+    h1 {
+        font-size: 44px;
+        font-weight: bold;
+        color: white;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+    }
+    button {
+        padding: 12px 34px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 8px;
+        border: 1px solid white;
+    }
+}
+.course {
+    background-color: #F7FAFF;
+}
+.accordion-head {
+    h1{
+        font-size: 44px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #0A2134;
+    }
+}
+.accord-button{
+    display: flex;
+    justify-content: center;
+    button {
+        padding: 12px 34px;
+        background: linear-gradient(to right, #0ACEFE,#2699FB);
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        border: 1px solid #0ACEFE;
+        border-radius: 8px;
+        
+    }
+}
+.footer-body {
+    background-color: #0A2540;
+    p {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 400;    
+        margin: 0px;
+    }
+}
